@@ -1,0 +1,93 @@
+body{
+    font-family:sans-serif;
+}
+header{
+    background-image: url(./images/main.jpg);
+    background-repeat: no-repeat, repeat;
+
+}
+nav{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu ul li {
+    list-style: none;
+    justify-content: space-between;
+    display: inline-block
+}
+
+.logo{
+    font-size: 30px;
+    margin: 10px;
+}
+.center{
+    margin: 100px;
+    padding: 100px;
+    display: flex;
+    align-items: center;
+}
+main{
+    text-align: center;
+}
+
+main h2{
+    color: rgb(90, 89, 89);
+}
+main p{
+    color: rgb(102, 102, 120);
+}
+main section .destination-img{
+    align-items: center;
+}
+
+table td{
+    font-size: 30px;
+}
+table .caption{
+    font-size: 18px;
+}
+
+table .tour-img img{
+    background-color: blue;
+    width: 60px;
+}
+section .testimonials h4{
+    padding: 30px;
+    color: rgb(90, 89, 89);
+    font-size: 30px;
+}
+ section .testimonial-1{
+    padding: 60px;
+    font-size: 20px;
+ }
+ section .testimonial-2{
+    padding: 60px;
+    font-size: 20px;
+ }
+ section .testimonial-3{
+    padding: 60px;
+    font-size: 20px;
+ }
+ section .testimonial-1 span{
+    font-size: 15px;
+    color: black;
+ }
+ section .testimonial-2 span{
+    color: black;
+    font-size: 15px;
+ }
+ section .testimonial-3 span{
+    color: black;
+    font-size: 15px;
+ }
+
+ footer{
+    padding: 100px;
+    text-align: center;
+    background-color: rgb(207, 207, 207);
+ }
+footer p{
+    font-size: 15px;
+}
